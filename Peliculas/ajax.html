@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="ajax.css">
+</head>
+<body>
+    <!-- Página principal de búsqueda -->
+    <div id="landing-page">
+        <h1>Busca tu película favorita</h1>
+        <p>Busca películas y series.</p>
+        <input type="text" id="search-input" placeholder="Escribe al menos 3 caracteres..." />
+        <button id="search-button">Buscar</button>
+    </div>
+
+    <!-- Página de resultados -->
+    <div id="results-page" class="hidden">
+        <button id="back-button">Volver</button>
+        <div id="results-container"></div>
+    </div>
+
+    <!-- Página de detalles -->
+    <div id="detail-page" class="hidden">
+        <button id="back-to-results-button">Volver a resultados</button>
+        <div id="detail-container"></div>
+    </div>
+
+    <!-- Página del informe -->
+    <div id="report-page" class="hidden">
+        <button id="back-to-results-button">Volver a resultados</button>
+        <div id="report-container"></div>
+    </div>
+
+    <!-- Navegación -->
+    <nav id="navbar">   </nav>
+
+    <script src="ajax.js"></script>
+</body>
+</html>
